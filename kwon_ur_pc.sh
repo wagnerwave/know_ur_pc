@@ -32,12 +32,13 @@ free mt
 
 echo "    "
 echo "________________________________________________________"
-echo "Harddisk & free space"
+echo "Harddisk & free space & usb"
 echo "________________________________________________________"
 echo "    "
 
 sudo hdparm -I /dev/sdaD
 df -hT
+fdisk -l
 
 echo "    "
 echo "________________________________________________________"
